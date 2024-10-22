@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Word</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Barlow:wght@100;300;400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+
+    <!-- Cabeçalho -->
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Anime Word</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#quem-somos" class="nav-link">
+                            <i class="bi bi-patch-question"></i> QUEM SOMOS?
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#animes" class="nav-link">
+                            <i class="bi bi-emoji-grin"></i> ANIMES
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#destaques" class="nav-link">
+                            <i class="bi bi-emoji-sunglasses"></i> DESTAQUES
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i> FALE CONOSCO
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Carrossel -->
+    <section id="quem-somos" class="p-4">
+
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="imagens/img-cabecalho/Dragon-Ball-Z.jpg" class="d-block w-100" alt="Dragon Ball Z">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="imagens/img-cabecalho/Naruto.jpg" class="d-block w-100" alt="Naruto">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="imagens/img-cabecalho/HXH.jpg" class="d-block w-100" alt="Hunter X Hunter">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="imagens/img-cabecalho/ONE-PEACE.jpg" class="d-block w-100" alt="One Piece">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="imagens/img-cabecalho/one-punch-man.jpg" class="d-block w-100" alt="One Punch Man">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="imagens/img-cabecalho/pokemon.jpg" class="d-block w-100" alt="Pokémon">
+                </div>
+            </div>
+
+            <!-- Botões de Navegação -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </button>
+
+            <!-- Indicadores -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="4"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="5"></button>
+            </div>
+        </div>
+        <div class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="imagens/quem-somos.jpg" class="d-block w-100 rounded" alt="Escritório">
+                    </div>
+                    <div class="col-md-7 mt-3 mt-md-0">
+                        <h2 class="section-title">Quem <span class="text-colored">Somos</span></h2>
+                        <p>
+                                    Somos uma empresa fundada por verdadeiros fãs de animes, apaixonados por todas as nuances desse universo fascinante da cultura japonesa. Desde os icônicos heróis de sagas épicas até os momentos emocionantes que marcam cada episódio, nossa equipe vive e respira o mundo dos animes. O que começou como um hobby entre amigos cresceu e se tornou uma loja especializada em produtos que refletem essa paixão, trazendo o melhor do universo otaku para todos os nossos clientes.
+
+                                    Nosso catálogo é cuidadosamente selecionado, oferecendo uma grande variedade de produtos oficiais que vão desde action figures, vestuário temático, acessórios até colecionáveis exclusivos. Cada item que oferecemos é pensado para celebrar o universo dos animes, sempre buscando manter a fidelidade e a autenticidade de cada personagem, cena ou série. Queremos que cada fã se sinta representado e encontre aquele item especial que traz à tona as melhores memórias e sentimentos dos seus animes favoritos.
+
+                                    Aqui na Anime Word, acreditamos que os animes não são apenas entretenimento, mas uma forma de conectar pessoas através de histórias cativantes, emoções e valores que ressoam com seus espectadores. Nosso objetivo é continuar alimentando essa paixão e comunidade, oferecendo produtos de qualidade que permitam aos nossos clientes expressarem seu amor por esse gênero de uma forma autêntica e significativa
+                        </p>
+                            
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        </div>
+
+    </section>
+
+    <!-- Seção de Animes -->
+<section id="animes" class="py-5">
+    <div class="container">
+        <h2 class="section-title text-center mb-4">Animes <span class="text-colored">Destaque</span></h2>
+        <div class="row g-4">
+
+            <!-- Card 1: Dragon Ball Z -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="imagens/img-cards/dragon-card.jpg" class="card-img-top" alt="Dragon Ball Z">
+                    <div class="card-body">
+                        <h5 class="card-title">Dragon Ball Z</h5>
+                        <p class="card-text">A história épica de Goku e seus amigos defendendo a Terra contra inimigos poderosos.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2: Naruto -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="imagens/img-cards/naruto-card.jpeg" class="card-img-top" alt="Naruto">
+                    <div class="card-body">
+                        <h5 class="card-title">Naruto</h5>
+                        <p class="card-text">A jornada de um jovem ninja em busca de reconhecimento e do título de Hokage.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3: Hunter X Hunter -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="imagens/img-cards/hunter-img.jpg" class="card-img-top" alt="Hunter X Hunter">
+                    <div class="card-body">
+                        <h5 class="card-title">Hunter X Hunter</h5>
+                        <p class="card-text">Aventuras de Gon Freecss e seus amigos no mundo dos caçadores.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4: One Piece -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="imagens/img-cards/one-card.jpeg" class="card-img-top" alt="One Piece">
+                    <div class="card-body">
+                        <h5 class="card-title">One Piece</h5>
+                        <p class="card-text">Luffy e sua tripulação de piratas em busca do lendário tesouro One Piece.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5: One Punch Man -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="imagens/img-cards/one-punch-card.jpg" class="card-img-top" alt="One Punch Man">
+                    <div class="card-body">
+                        <h5 class="card-title">One Punch Man</h5>
+                        <p class="card-text">Saitama, o herói mais forte, enfrenta desafios em um mundo de super-heróis.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6: Pokémon -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="imagens/img-cards/Pokemon-card.jpg" class="card-img-top" alt="Pokémon">
+                    <div class="card-body">
+                        <h5 class="card-title">Pokémon</h5>
+                        <p class="card-text">Ash e Pikachu em sua jornada para se tornarem os maiores mestres Pokémon.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="destaques" class="pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <h2 class="section-title text-center mb-5">
+                Personagens <span class="text-colored">Destaque</span>
+            </h2>
+        </div>
+        <div class="row">
+            <aside class="col-md-2">
+                <nav class="nav nav-pills flex-column nav-personagens">
+                    <button type="button" data-bs-toggle="tab" data-bs-target="#goku" 
+                            class="fw-bold text-start nav-link text-colored active">Goku</button>
+                    <button type="button" data-bs-toggle="tab" data-bs-target="#naruto" 
+                            class="fw-bold text-start nav-link text-colored">Naruto</button>
+                    <button type="button" data-bs-toggle="tab" data-bs-target="#gon" 
+                            class="fw-bold text-start nav-link text-colored">Gon Freecss</button>
+                    <button type="button" data-bs-toggle="tab" data-bs-target="#luffy" 
+                            class="fw-bold text-start nav-link text-colored">Luffy</button>
+                    <button type="button" data-bs-toggle="tab" data-bs-target="#saitama" 
+                            class="fw-bold text-start nav-link text-colored">Saitama</button>
+                    <button type="button" data-bs-toggle="tab" data-bs-target="#ash" 
+                            class="fw-bold text-start nav-link text-colored">Ash Ketchum</button>
+                </nav>
+            </aside>
+
+            <div class="col-md-10">
+                <div class="tab-content">
+                    <!-- Goku -->
+                    <div class="tab-pane fade show active" id="goku">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="imagens/destaques-img/goku-dest.jpg" alt="Goku">
+                                <h5 class="text-colored fw-bold mt-2">Goku</h5>
+                                <p>O lendário guerreiro saiyajin que protege a Terra de poderosos inimigos.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Naruto -->
+                    <div class="tab-pane fade" id="naruto">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="imagens/destaques-img/Naruto_Uzumaki_29.png" alt="Naruto">
+                                <h5 class="text-colored fw-bold mt-2">Naruto Uzumaki</h5>
+                                <p>O ninja destemido que sonha em se tornar o Hokage de sua vila.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Gon Freecss -->
+                    <div class="tab-pane fade" id="gon">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="imagens/destaques-img/GonGI.png" alt="Gon Freecss">
+                                <h5 class="text-colored fw-bold mt-2">Gon Freecss</h5>
+                                <p>O jovem aventureiro que busca encontrar seu pai e se tornar um Hunter.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Luffy -->
+                    <div class="tab-pane fade" id="luffy">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="imagens/destaques-img/luffy_dest.png" alt="Luffy">
+                                <h5 class="text-colored fw-bold mt-2">Monkey D. Luffy</h5>
+                                <p>O capitão dos Chapéus de Palha que busca se tornar o Rei dos Piratas.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Saitama -->
+                    <div class="tab-pane fade" id="saitama">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="imagens/destaques-img/saitama-dest.png" alt="Saitama">
+                                <h5 class="text-colored fw-bold mt-2">Saitama</h5>
+                                <p>O herói mais forte, capaz de derrotar qualquer inimigo com um único soco.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Ash Ketchum -->
+                    <div class="tab-pane fade" id="ash">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="imagens/destaques-img/ash-dest.png" alt="Ash Ketchum">
+                                <h5 class="text-colored fw-bold mt-2">Ash Ketchum</h5>
+                                <p>O jovem treinador de Pokémon que sonha em se tornar um Mestre Pokémon.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="fale-conosco" class="pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <h2 class="section-title text-center">Fale <span class="text-colored">Conosco</span></h2>
+        </div>
+        <div class="row">
+            <!-- Formulário -->
+            <div class="col-md-7 mb-5">
+                <form>
+                    <div class="mb-3">
+                        <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                        <input type="text" id="nome" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label fw-bold text-colored">Seu email</label>
+                        <input type="email" id="email" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                        <input type="tel" id="telefone" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                        <textarea class="form-control" id="mensagem" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary fw-bold">Enviar</button>
+                </form>
+            </div>
+
+            <!-- Redes Sociais e Endereço -->
+            <div class="col-md-5">
+                <div class="mb-4">
+                    <h3 class="section-title fs-4 text-colored">
+                        <i class="bi bi-hand-thumbs-up-fill"></i>
+                        Redes Sociais
+                    </h3>
+                    <ul class="list-unstyled d-flex gap-3 social-links">
+                        <li class="fs-5">
+                            <a href="#"><i class="bi bi-facebook text-colored fs-3"></i></a>
+                        </li>
+                        <li class="fs-5">
+                            <a href="#"><i class="bi bi-instagram text-colored fs-3"></i></a>
+                        </li>
+                        <li class="fs-5">
+                            <a href="#"><i class="bi bi-whatsapp text-colored fs-3"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="section-title fs-4 text-colored">
+                        <i class="bi bi-cursor-fill"></i>
+                        Endereço
+                    </h3>
+                    <p>Rua Teste, 5 - SP</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Rodapé -->
+<footer class="text-center py-4">
+    <p class="mb-0">© 2024 Anime Word. Todos os direitos reservados.</p>
+    <ul class="list-inline">
+        <li class="list-inline-item"><a href="#quem-somos">Quem Somos</a></li>
+        <li class="list-inline-item"><a href="#animes">Animes</a></li>
+        <li class="list-inline-item"><a href="#destaques">Destaques</a></li>
+        <li class="list-inline-item"><a href="#fale-conosco">Fale Conosco</a></li>
+    </ul>
+</footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
